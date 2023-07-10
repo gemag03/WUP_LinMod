@@ -88,9 +88,11 @@ The residual standard error is 15.41 and our adjusted R squared is 0.467. We alw
 
 ```{r}
 mydata <-data.frame(GRIP=88, ARM=104)
-
 ```
 
+
+
+did not let me predict and I do not know why
 
 
 
@@ -166,6 +168,17 @@ The residual standard error is 1.295. SIMS~ARM is better than SIMS~GRIP because 
   
 
 #### predict model.2 at target point
+
+
+```{r}
+predict.lm(model.2, mydata, interval = "prediction")
+```
+
+
+The interval goes from 3.38 to positive 1.766.
+
+
+
 
 #### now add the model fit to our plot for model.2
   
