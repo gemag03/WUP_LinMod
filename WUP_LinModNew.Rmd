@@ -88,6 +88,7 @@ The residual standard error is 15.41 and our adjusted R squared is 0.467. We alw
 
 ```{r}
 mydata <-data.frame(GRIP=88, ARM=104)
+
 ```
 
 
@@ -137,6 +138,16 @@ basicNN
 
 
 ### Numerical results 
+
+
+
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+
+The numerical result for SIMS~GRIP is 0.6398458.SIMS~ARM has a higher correlation than SIMS~GRIP.
+
 
 
 ### Inferential  (Build model.2)
