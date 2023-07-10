@@ -230,6 +230,15 @@ This model has a standard residual error of 1.444 and a r squared of 0.5358.This
 
 
 #### predict model.3 at target point
+
+
+```{r}
+predict.lm(model.3, mydata, interval = "prediction")
+```
+
+
+The interval goes from a negativee 1.716 to a positive 2.915.
+  
   
 
 ## Comparing nested models ANOVA Test
