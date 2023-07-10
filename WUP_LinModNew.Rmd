@@ -244,6 +244,23 @@ The interval goes from a negativee 1.716 to a positive 2.915.
 ## Comparing nested models ANOVA Test
 
 ### Model.1 vs Model.3
+
+
+
+```{r}
+anova(model.1, model.3)
+```
+
+
+Gives p value of 00000499, which does not have any value.We got a residual sum of squares from model 1. Such as 145, 34441, and 237.5.
+
+
+
+
+
+
+
+
 ### Model.2 vs Model.3
 
 ## Informally compare Model.1 with model.2
