@@ -70,6 +70,19 @@ This shows there is a fair amount of relationship between SIMS and ARM in their 
 
 ### Inferential  (Build model.1)
 
+
+```{r}
+model.1 <- lm(ARM~SIMS,data=data)
+summary.lm(model.1)
+```
+
+
+
+
+
+
+
+
 #### Predict at target point
 
 
