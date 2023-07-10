@@ -202,7 +202,16 @@ mygrip
 
 ### Numerical results (cor)
 
-`
+
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+
+
+
+
+
+
   
 ### Inferential  (Build 2-dimentional model.3)
 
