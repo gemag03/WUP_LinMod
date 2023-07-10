@@ -51,11 +51,21 @@ basicNN
 
 
 
-
-
-
-
 ### Numerical results
+
+
+
+
+```{r}
+cor(ARM~SIMS,data=data)
+```
+
+
+
+This shows there is a fair amount of relationship between SIMS and ARM in their strength. Which is 0.6860073.
+
+
+
 
 
 ### Inferential  (Build model.1)
