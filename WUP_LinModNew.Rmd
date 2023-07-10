@@ -208,12 +208,26 @@ cor(SIMS~ARM+GRIP,data=data)
 ```
 
 
-
+The correlation is larger than SIMS~ARM and SIMS~GRIP.
 
 
 
   
 ### Inferential  (Build 2-dimentional model.3)
+
+
+
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP,data=data)
+summary.lm(model.3)
+```
+
+
+
+This model has a standard residual error of 1.444 and a r squared of 0.5358.This model has a better residual error than SIMS~GRIP and SIMS~ARM.Model is SIMS= .0311 * ARM + .024470 * GRIP - 5.433871.
+
+
+
 
 #### predict model.3 at target point
   
